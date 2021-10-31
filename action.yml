@@ -1,10 +1,10 @@
-name: RobloxTSBuildAction
-description: Build RobloxTS projects with Github Actions
+name: 'RobloxTSBuildAction'
+description: 'Build RobloxTS projects with Github Actions'
 runs:
   using: "composite"
   steps:
     - uses: actions/setup-node@v2
         with:
           node-version: '16'
-    - run: npm i -g roblox-ts
-    - run: rbxtsc
+    - run: 'npm i -g roblox-ts'
+    - run: 'rbxtsc'
