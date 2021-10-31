@@ -1,4 +1,4 @@
-name: RobloxTS Build Action
+name: RobloxTSBuildAction
 description: Build RobloxTS projects with Github Actions
 runs:
   using: "composite"
